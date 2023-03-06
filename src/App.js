@@ -1,12 +1,21 @@
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home'
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Sup</h1>
-    </div>
+    <>
+    <Router>
+    <Navbar/>
+    <Routes>
+      <Route path='/' exact component={Home}/>
+    </Routes>
+    </Router>
+      
+    </>
   );
 }
 
