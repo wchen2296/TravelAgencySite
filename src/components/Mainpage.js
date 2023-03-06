@@ -7,14 +7,14 @@ function Mainpage() {
   return (
     <div className='mainpage-container'>
         
-      <h1>THE FUTURE OF TRAVEL IS HERE</h1>
-      <p>What are you waiting for?</p>
+      <h1>Find relief wherever you go</h1>
+      <p>Say goodbye to bathroom anxiety</p>
       <div className='mainpage-btns'>
       <Button className='btns' buttonStyle='btn--Outline' buttonSize='btn--large'>
-        Visit Now
+        Learn More
       </Button>
       <Button className='btns' buttonStyle='btn--Primary' buttonSize='btn--large'>
-        About Us
+        Give Us Feedback
       </Button>
       </div>
     </div>
