@@ -1,0 +1,93 @@
+.aboutus-container {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #fff;
+    background: url('https://steamuserimages-a.akamaihd.net/ugc/960856720981536415/90FC611EA20B1797EABD82F92508DBB2DAFBBB0E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .aboutus-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutus-container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .aboutus-container p {
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .launch-site,
+  .founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .launch-site img,
+  .founder img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .launch-site,
+    .founder
+     {
+      flex-direction: row;
+    }
+  
+    .launch-site img,
+    .founder img {
+      margin-right: 2rem;
+    }
+  
+    .launch-site p,
+    .founder p {
+      max-width: 50%;
+    }
+  }
+  /* ... */
+.resort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .resort-content {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 3rem;
+  }
+  
+  .resort img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10rem;
+    
+  }
+  /* ... */
+  
+
