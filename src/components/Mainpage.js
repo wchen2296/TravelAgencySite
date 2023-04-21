@@ -28,7 +28,7 @@ function Mainpage() {
        buttonSize='btn--large'
        to="/aboutus" 
        >
-       About Us
+       Learn More
       </Button>
       </Link>
       </div>
