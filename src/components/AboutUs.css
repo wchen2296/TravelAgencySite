@@ -88,6 +88,9 @@
     margin-left: 10rem;
     
   }
+  p{
+    align-content: end;
+  }
   /* ... */
   
 
