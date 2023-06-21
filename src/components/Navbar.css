@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: rgb(26, 23, 23);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -141,7 +141,6 @@
       margin: 2rem auto;
       border-radius: 4px;
       width: 80%;
-      text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
       color: #fff;
@@ -154,28 +153,6 @@
       background: #fff;
       color: #242424;
       transition: 250ms;
-    }
-  }
-  .btn--outline-nav {
-    border-radius: 50px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 16px;
-    padding: 14px 48px;
-    transition: all 0.3s ease-out;
-  }
-  
-  .btn--outline-nav:hover {
-    background-color: #fff;
-    color: #242424;
-    transition: all 0.3s ease-out;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .btn--outline-nav {
-      font-size: 1rem;
-      padding: 12px 30px;
     }
   }
   

@@ -36,7 +36,7 @@ function Products() {
           <br/>
           <p>
             Equipped with latest cutting edge technology and all the capabilites of previous suits.
-            Explore for etexnded durations with the Star Strider suit. Built
+            Explore for lengthy durations with the Star Strider suit. Built
             with the most robust life support systems of our times, it ensures extended
             excursions and ultimate comfort during your space adventures.
           </p>
