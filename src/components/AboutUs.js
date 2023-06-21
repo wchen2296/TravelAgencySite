@@ -52,7 +52,7 @@ function AboutUs() {
       
       <h1>Inspiration Awaits</h1>
       <br/>
-      <p>
+      <p className='text'>
         We believe that the universe is not just a distant, unreachable place,
         but a destination where anyone can experience the wonders of
         exploration. As you join us on this incredible journey, we invite you

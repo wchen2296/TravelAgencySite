@@ -88,9 +88,10 @@
     margin-left: 10rem;
     
   }
-  p{
-    align-content: end;
+  .text{
+   
+    display: flex;
+   
   }
-  /* ... */
   
 
